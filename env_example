@@ -1,0 +1,12 @@
+GROQ_API_KEY="your groq api key"
+LLM_MODEL_NAME="model name"
+EMBEDDING_MODEL_NAME="model name"
+
+LLM_TEMPERATURE=0.1
+LLM_MAX_TOKENS=1000
+
+LANGSMITH_TRACING=true
+LANGSMITH_ENDPOINT="https://api.smith.langchain.com"
+LANGSMITH_API_KEY="your langsmith api key"
+LANGSMITH_PROJECT="pproject name"
+

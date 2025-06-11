@@ -1,0 +1,19 @@
+langchain==0.3.25
+groq==0.26.0
+langchain-community==0.3.24
+langchain-groq==0.3.2
+langchain-huggingface==0.2.0
+
+sentence-transformers==4.1.0
+duckduckgo-search==8.0.3
+
+python-dotenv==1.1.0
+
+black== 25.1.0
+flake8==7.2.0
+isort==6.0.1
+
+beautifulsoup4==4.13.4
+
+faiss-cpu==1.11.0
+upstash_redis==1.4.0
