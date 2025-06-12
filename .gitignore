@@ -1,4 +1,5 @@
 crash/.env
+ollama/.env
 .venv
 .idea
 __pycache__
