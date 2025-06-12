@@ -2,7 +2,7 @@ import os
 
 from dotenv import load_dotenv
 
-load_dotenv(dotenv_path="../.env")
+load_dotenv(dotenv_path=".env")
 from langchain_core.output_parsers import (CommaSeparatedListOutputParser,
                                            JsonOutputParser, ListOutputParser,
                                            StrOutputParser)

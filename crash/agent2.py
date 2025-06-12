@@ -14,7 +14,7 @@ from langchain_groq import ChatGroq
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
-load_dotenv(dotenv_path="../.env")
+load_dotenv(dotenv_path=".env")
 
 loader = WebBaseLoader("https://python.langchain.com/docs/expression_language/")
 docs = loader.load()

@@ -8,5 +8,8 @@ LLM_MAX_TOKENS=1000
 LANGSMITH_TRACING=true
 LANGSMITH_ENDPOINT="https://api.smith.langchain.com"
 LANGSMITH_API_KEY="your langsmith api key"
-LANGSMITH_PROJECT="pproject name"
+LANGSMITH_PROJECT="project name"
 
+TAVILY_API_KEY=""
+UPSTASH_URL=""
+UPSTASH_TOKEN=""

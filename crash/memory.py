@@ -8,7 +8,7 @@ from langchain_community.chat_message_histories.upstash_redis import \
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_groq import ChatGroq
 
-load_dotenv(dotenv_path="../.env")
+load_dotenv(dotenv_path=".env")
 
 history = UpstashRedisChatMessageHistory(
     url=os.getenv("UPSTASH_URL"), token=os.getenv("UPSTASH_TOKEN"), session_id="chat1"

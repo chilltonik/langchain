@@ -1,4 +1,4 @@
-.env
+crash/.env
 .venv
 .idea
 __pycache__
