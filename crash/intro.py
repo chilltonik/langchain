@@ -1,7 +1,6 @@
 import os
 
 from dotenv import load_dotenv
-from langchain_core.messages import HumanMessage, SystemMessage
 from langchain_groq import ChatGroq
 
 load_dotenv(dotenv_path=".env")

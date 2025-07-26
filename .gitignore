@@ -1,6 +1,9 @@
 crash/.env
 ollama/.env
 langgraph/.env
+langgraph2/6b6eac72-b0e7-48c0-b822-56ad911eaea9
+langgraph2/db
+langgraph2/chroma.sqlite3
 .venv
 .idea
 __pycache__

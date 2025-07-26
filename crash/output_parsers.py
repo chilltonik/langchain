@@ -2,13 +2,14 @@ import os
 
 from dotenv import load_dotenv
 
-load_dotenv(dotenv_path=".env")
 from langchain_core.output_parsers import (CommaSeparatedListOutputParser,
-                                           JsonOutputParser, ListOutputParser,
+                                           JsonOutputParser,
                                            StrOutputParser)
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_groq import ChatGroq
 from pydantic import BaseModel, Field
+
+load_dotenv(dotenv_path=".env")
 
 model = ChatGroq(
     api_key=os.getenv("GROQ_API_KEY"),

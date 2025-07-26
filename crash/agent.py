@@ -1,7 +1,7 @@
 import os
 
 from dotenv import load_dotenv
-from langchain.agents import AgentExecutor, AgentType, initialize_agent
+from langchain.agents import AgentExecutor, initialize_agent
 from langchain.tools.retriever import create_retriever_tool
 from langchain_community.document_loaders import WebBaseLoader
 from langchain_community.tools.tavily_search import TavilySearchResults
