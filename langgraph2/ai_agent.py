@@ -26,5 +26,7 @@ agent = graph.compile()
 
 user_input = input("Enter: ")
 while user_input != "exit":
-    agent.invoke({"messages": [HumanMessage(content=user_input)]})
+    config = {'configurable': {"thread_id": "1"}}
+    response = agent.invoke({"messages": [HumanMessage(content=user_input)]}, config=config)
+    print("Response:", response)
     user_input = input("Enter: ")
